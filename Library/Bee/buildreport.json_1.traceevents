@@ -1,0 +1,466 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685442658983458, "dur": 4529666, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442658983769, "dur": 15251, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442658999022, "dur": 40429, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442659039454, "dur": 1006444, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442660045901, "dur": 3452589, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442663498492, "dur": 14630, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442663513986, "dur": 27, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685442659828420, "dur": 201335, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685442659829694, "dur": 54691, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685442660001237, "dur": 9365, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685442660010608, "dur": 19132, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685442660012220, "dur": 16566, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685442660036371, "dur": 1725, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685442660035236, "dur": 2900, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442663514986, "dur": 739, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685442660103767, "dur":2259, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442660106034, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685442660106111, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685442660106131, "dur":235, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685442660106399, "dur":946, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442660107345, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663452663, "dur":114, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663452777, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663452796, "dur":1443, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454240, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454255, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454268, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454281, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454285, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454295, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454314, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663454355, "dur":3126, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685442660106950, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660107360, "dur":5882, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660113259, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685442660113268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660114728, "dur":11945, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685442660126677, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685442660126792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660129456, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685442660130978, "dur":11681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685442660142666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660142677, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685442660144238, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685442660144379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660144552, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685442660146372, "dur":11638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685442660158016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660158028, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685442660160248, "dur":17559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685442660177813, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660177856, "dur":15078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685442660192997, "dur":210331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685442660403333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660403342, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685442660406303, "dur":31192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660437528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660437538, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660440701, "dur":75073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660515779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660515790, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660517166, "dur":62435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660579606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660579616, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660582636, "dur":181953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660764597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660764609, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660766060, "dur":17416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660783482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660783492, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660784777, "dur":78052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660862834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442660862845, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442660864193, "dur":299224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661163423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661163433, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661165622, "dur":79527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661245157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661245171, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661247260, "dur":77079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661324344, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661324356, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661326017, "dur":18888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661344910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661344920, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661346538, "dur":66523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661413066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661413076, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661414555, "dur":31441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661446004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661446017, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661447609, "dur":144237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661591851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661591862, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661593579, "dur":54505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661648089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661648099, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661649463, "dur":20497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661669966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661669976, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661671457, "dur":59129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661730594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661730607, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661732351, "dur":210484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661942841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442661942852, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442661944301, "dur":126105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662070411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442662070422, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662073129, "dur":416281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662489418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442662489430, "dur":3695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662493186, "dur":187288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662680482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442662680496, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662681981, "dur":260549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662942562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442662942571, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442662945614, "dur":60505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442663006124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442663006134, "dur":14685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442663020884, "dur":426405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442663447294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685442663447304, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685442663452629, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685442663452633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660107011, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660107369, "dur":5879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660113259, "dur":25827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685442660139091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660139116, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685442660140681, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685442660140835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660140846, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685442660143905, "dur":13248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685442660157185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660157197, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685442660159367, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685442660159520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660159611, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685442660161133, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685442660161289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660161300, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685442660163799, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685442660163958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660163968, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685442660165576, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1685442660165726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660165735, "dur":2924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1685442660168733, "dur":59878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660228617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660229086, "dur":4925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660234077, "dur":44452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685442660278534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660278541, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685442660280318, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685442660280471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660281116, "dur":18082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685442660299269, "dur":87547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660386822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660387314, "dur":4349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660391728, "dur":21480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660413213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660413335, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660418849, "dur":96136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660514992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660515003, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660516660, "dur":50256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660566922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660566932, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660568266, "dur":24114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660592386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660592396, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660593731, "dur":82138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660675874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660675885, "dur":10887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660686836, "dur":55776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660742618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660742628, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660743946, "dur":19500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660763451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660763488, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660764912, "dur":146222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660911139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442660911151, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442660913277, "dur":304060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661217342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661217353, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661218825, "dur":32480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661251310, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661251353, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661252862, "dur":54673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661307540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661307550, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661309953, "dur":70824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661380782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661380793, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661382335, "dur":126804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661509169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661509183, "dur":23993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661533242, "dur":56221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661589469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661589478, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661590950, "dur":35667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661626623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661626634, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661628100, "dur":29504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661657609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661657619, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661659389, "dur":57938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661717332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661717341, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661718716, "dur":77969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661796691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661796701, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661798111, "dur":29611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661827727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661827737, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661829071, "dur":133097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661962173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442661962183, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442661964416, "dur":405315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662369737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442662369747, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662371310, "dur":118780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662490096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442662490110, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662492756, "dur":61442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662554203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442662554213, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662556203, "dur":46732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662602940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442662602951, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662604346, "dur":275254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662879606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442662879615, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442662882659, "dur":186848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442663069511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685442663069521, "dur":287647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685442663357235, "dur":95413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660107002, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660107377, "dur":5871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660113259, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685442660113431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660116099, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685442660120562, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685442660120712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660121012, "dur":21783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685442660142881, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685442660143180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660145015, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685442660147040, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685442660147184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660147273, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685442660149592, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685442660149744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660150266, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685442660151772, "dur":20100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685442660171877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660171888, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685442660173216, "dur":281642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660454863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660454985, "dur":5724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660460775, "dur":159284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660620065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660620075, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660621402, "dur":56016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660677423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660677433, "dur":10384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660687881, "dur":20102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660707988, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660708004, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660709488, "dur":18883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660728377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660728387, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660729690, "dur":105851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660835547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660835557, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660837334, "dur":80820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660918160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660918170, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660919567, "dur":62884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660982456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442660982493, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442660984142, "dur":54297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661038445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661038455, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661042965, "dur":61741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661104712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661104722, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661106245, "dur":145645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661251897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661251910, "dur":4590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661256664, "dur":23219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661279888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661279898, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661281215, "dur":30088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661311309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661311318, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661312711, "dur":28730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661341447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661341457, "dur":4982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661346501, "dur":61918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661408425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661408435, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661411049, "dur":33465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661444519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661444530, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661446243, "dur":63320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661509567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661509575, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661510849, "dur":39829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661550683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661550693, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661552044, "dur":62200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661614255, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661614266, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661615686, "dur":218425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661834116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661834126, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661836817, "dur":157079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661993901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442661993912, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442661995978, "dur":139774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662135757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442662135767, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662137216, "dur":154262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662291483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442662291494, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662292968, "dur":296651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662589625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442662589635, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662594830, "dur":280686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662875522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442662875532, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442662877264, "dur":190566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442663067835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442663067845, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442663069392, "dur":380350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442663449750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685442663449762, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685442663451782, "dur":865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442660107059, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442660107386, "dur":5859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442660113259, "dur":70930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685442660184194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442660184595, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685442660186044, "dur":1045986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661232036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661232045, "dur":16070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661248177, "dur":48579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661296761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661296772, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661298365, "dur":27295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661325668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661325680, "dur":9225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661334963, "dur":33301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661368269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661368280, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661370405, "dur":23777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661394187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661394198, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661395605, "dur":42608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661438219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661438229, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661439795, "dur":24017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661463817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661463827, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661465276, "dur":21915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661487196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661487206, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661488655, "dur":19319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661507982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661507992, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661509335, "dur":22305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661531648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661531661, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661532952, "dur":122792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661655750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661655761, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661657284, "dur":52113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661709402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661709413, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661710812, "dur":34589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661745406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661745415, "dur":5759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661751232, "dur":60494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661811732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661811742, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661813331, "dur":59945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661873281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661873291, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661875018, "dur":92274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661967297, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442661967315, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442661968695, "dur":132643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662101343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442662101354, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662103211, "dur":87942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662191158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442662191167, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662192810, "dur":254745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662447563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442662447574, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662449363, "dur":266694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662716062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442662716072, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662719986, "dur":75091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662795083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442662795093, "dur":18751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442662813907, "dur":279383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442663093295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663093305, "dur":9357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442663102732, "dur":193346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442663296084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663296093, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685442663297848, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685442663297912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663297975, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685442663299595, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685442663299655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663299663, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685442663302250, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685442663302327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663302336, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685442663304599, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685442663304660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663304669, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685442663306774, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685442663306961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663306969, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685442663308226, "dur":1069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1685442663309300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663309309, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1685442663310907, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685442663310967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663310975, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685442663314115, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685442663314176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663314185, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685442663317936, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685442663317998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663318006, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685442663319504, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685442663319556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663319564, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685442663320881, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685442663320963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663320971, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685442663323393, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1685442663323468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663323476, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1685442663325292, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vilma/Desktop/Build/Zadimas_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685442663325464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685442663325472, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vilma/Desktop/Build/Zadimas_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685442663326666, "dur":125994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685442663460068, "dur":2575, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685442663515852, "dur": 1356, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685442663513969, "dur": 3280, "ph": "X", "name": "Write chrome-trace events", "args": {} },
